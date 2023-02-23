@@ -4,6 +4,11 @@ Quickly start a temporary container and go into the container's terminal. Easy t
 
 Alias of `docker run --rm -it <image> <command>`.
 
+## Installation
+
+```bash
+npm install docker-boot -g
+```
 
 ## Usage
 
@@ -24,3 +29,4 @@ Run a command in the container:
 docker-boot <image> <command>
 docker-boot centos:7 ls
 ```
+
