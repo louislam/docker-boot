@@ -1,0 +1,17 @@
+{
+  "name": "docker-boot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "test1": "docker-boot debian:stable-slim bash",
+    "test2": "docker-boot debian:stable-slim",
+    "dev-install": "npm link",
+    "dev-uninstall": "npm uninstall -g docker-boot"
+  },
+  "bin": {
+    "docker-boot": "./cli.js"
+  },
+  "author": "Louis Lam",
+  "license": "MIT"
+}
