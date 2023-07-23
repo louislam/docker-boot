@@ -6,7 +6,7 @@ if (process.argv.length <= 2) {
     process.exit(1);
 }
 
-let cmd = "sh";
+let cmd = "bash";
 
 if (process.argv[3] !== undefined) {
     cmd = process.argv[3];
