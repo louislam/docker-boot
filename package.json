@@ -1,6 +1,6 @@
 {
   "name": "docker-boot",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "",
   "main": "cli.js",
   "scripts": {
@@ -10,7 +10,8 @@
     "dev-uninstall": "npm uninstall -g docker-boot"
   },
   "bin": {
-    "docker-boot": "./cli.js"
+    "docker-boot": "./cli.js",
+    "docker-exec": "./docker-exec.js"
   },
   "author": "Louis Lam",
   "license": "MIT"
